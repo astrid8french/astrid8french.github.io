@@ -35,12 +35,16 @@
             margin-bottom: 20px;
         }
         .image-container {
-            display: flex; 
+            display: flex;
             justify-content: space-between;
-            gap: 1em; 
+            gap: 1em;
+            margin-top: 20px;
+            flex-wrap: wrap; 
         }
         .image-item {
-            text-align: center; 
+            text-align: center;
+            flex: 1 1 45%; 
+            box-sizing: border-box;
         }
         .image-item img {
             width: 150px; 
@@ -72,12 +76,17 @@
             <img src="images/sign_in2.jpg" alt="Sign In">
             <p>Sign in process</p>
         </div>
+        <div class="image-container">
+        <div class="image-item">
+            <img src="images/sign_in2.jpg" alt="Sign In">
+            <p>Sign in process</p>
+        </div>
         <div class="image-item">
             <img src="images/sign_up_screen.jpg" alt="Sign Up">
             <p>Sign up process</p>
         </div>
-            
-        </div>
+    </div>
+
     </div>
 </body>
 </html>
