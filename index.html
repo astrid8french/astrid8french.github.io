@@ -143,10 +143,16 @@
 
         <div class="project">
             <h3>2. ContactService </h3>
-            <p>This project is based on an assignment from <strong>CS320: Software Testing, Automation, and Quality Assurance </strong> (April 2024). It is a simple Java program that allows users to add, delete, and update contacts. I believe that by choosing this artifact, I can showcase my ability to select the right data structure and demonstrate how I write more efficient and well-structured methods.</p>
-            <p>Looking back at my code, I see several areas for improvement, including selecting the right algorithm and data structure, enhancing encapsulation, and improving validation and error handling.
-For this enhancement, I have switched to a HashMap to achieve O(1) time complexity instead of using an ArrayList. Additionally, I have implemented input validation and error handling to prevent invalid inputs and ensure errors are properly managed, preventing the application from crashing.
-To improve flexibility and scalability, I previously had four separate methods for updating a contact. Now, I have consolidated them into a single method, making the class more adaptable to changes without creating unnecessary methods. </p>
+             <p>This project was based on an assignment from CS320: Software Testing, Automation, and Quality Assurance (April 2024). It was a simple Java program that allowed users to add, delete, and update contacts. By choosing this artifact, I aimed to showcase my ability to select the right data structure and demonstrate how I write more efficient and well-structured methods.</p>
+    <p>Looking back at my code, I identified several areas for improvement, including choosing the right algorithm and data structure, improving encapsulation, and enhancing validation and error handling. I decided to replace the existing data structure with a HashMap to achieve O(1) time complexity, instead of using an ArrayList.</p>
+    <p>Code review video:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=sxWJn_TbuFU" frameborder="0" allowfullscreen></iframe>
+    <h2>Enhancements:</h2>
+    <ul>
+        <li><strong>Using a HashMap:</strong> I replaced the current ArrayList with a HashMap to improve the efficiency of data retrieval, addition, and deletion. The HashMap uses the contact ID as the key, allowing for constant-time (O(1)) operations for searching, updating, and deleting contacts (on <code>ContactService.java</code>).</li>
+        <li><strong>Input Validation and Error Handling:</strong> I implemented input validation and error handling mechanisms to prevent invalid input and ensure errors were properly managed, preventing the application from crashing (on <code>Contacts.java</code>).</li>
+        <li><strong>Flexibility and Scalability:</strong> Previously, I had four separate methods for updating a contact. I consolidated them into a single method, making the class more adaptable to changes without creating extra methods (on <code>ContactService.java</code>).</li>
+    </ul>
             <p>For more project information such as the code in Java, <a href="https://github.com/astrid8french/astrid8french.github.io/tree/main/ContactService" target="_blank" style="color: red;">click here!</a></p>
         <div class="image-container">
         <div class="image-item">
@@ -157,6 +163,11 @@ To improve flexibility and scalability, I previously had four separate methods f
             <img src="images/work2.jpg" alt="testing result 2" style="width: 200px; margin: 0.5px;">
             <p>Contact Class Validation Test Results</p>
         </div>
+        <h1>Conclusions</h1>
+    <p>After correcting some of the mistakes I made earlier, I realized there are many things I did to enhance my code, especially in algorithms and data structures. I also fulfilled the requirements for Course Outcome 3, which involves improving data structures and algorithms, validation, and error handling. This includes designing and evaluating computing solutions that solve a given problem using algorithmic principles and computer science practices, while managing the trade-offs involved in design choices.</p>
+
+    <p>I learned a lot from my mistakes. Initially, I didn’t realize that choosing better data structures can significantly improve the overall time complexity. I also recognized the importance of input validation to prevent unwanted data, testing naming conventions, adding more comments to the code so that others can easily understand its purpose, and consolidating the four methods into a single method, simplifying the code and improving its efficiency. This process has greatly improved my coding skills and understanding of best practices.</p>
+
         <div></div>
         
         
